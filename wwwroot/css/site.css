@@ -1,0 +1,45 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+
+}
+
+body {
+  margin-bottom: 60px;
+}
+
+div{
+  padding: 5px;
+}
+h1{
+  color: rgb(6, 4, 8);
+  text-shadow: 2px 3px blue;
+}
+thead:hover{
+  color: rgb(255, 94, 0);
+}
+h4{
+  color: indigo;
+}
+
+thead{
+  color: darkmagenta;
+}
+a:hover{
+  color: greenyellow;
+  font-weight: bold;
+}
